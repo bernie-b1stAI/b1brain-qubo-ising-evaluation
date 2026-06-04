@@ -1,0 +1,6 @@
+category,policy,examples_redacted
+raw filesystem paths,excluded from all public CSV and Markdown artifacts,absolute paths; machine fingerprints; internal log references
+solver internals,excluded from all public artifacts,entrypoint identifiers; configuration hashes; launcher references
+timing fields,redacted from per-run public rows until dedicated timing appendix exists,wall_time_seconds; time_to_best_seconds; memory_peak_mb
+non-claim rows,excluded from per-run public claim CSVs and tracked via exclusion registry,capability_boundary; failed_investigate; runtime_dependency_missing
+implementation-level explanation,replaced with black-box claim boundaries,internal solver paths; parameter schedules; decomposition mechanics

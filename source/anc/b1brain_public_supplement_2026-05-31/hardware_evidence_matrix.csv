@@ -1,0 +1,6 @@
+tier,class,accelerator,completed_claim_evidence,nonclaim_in_checked_claim_files,claim_boundary
+T1,entry_mobile,GTX1050_Ti,120/120 completed per handover; 6/6 repeat spot-check,0,entry-tier feasibility and decomposition floor
+T2,prosumer,RTX4070,3006 completed frontier rows; tail51 6/6 spot-check,0,quality/objective consistency only; timing excluded
+T3,prosumer,RTX4060_Ti,3501 completed frontier rows; tail60 60/60 spot-check,0,cross-tier GPU reproducibility and quality consistency
+T4,server,RTX5090,9300 completed _jaxfixed frontier rows; tail180 60/60 spot-check,0,primary dedicated-GPU frontier evidence
+T5,unified_memory,APU_unified,3858 completed per handover; stress320 12/12 spot-check,0,structure-aware stress evidence; not external benchmark win

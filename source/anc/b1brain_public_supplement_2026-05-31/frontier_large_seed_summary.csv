@@ -1,0 +1,10 @@
+tier,accelerator,instance,n_completed,best_objective,best_gap_percent,mean_gap_percent,std_gap_percent,p50_gap_percent,p90_gap_percent,p95_gap_percent,claim_use
+T2,RTX4070,G72,1006,6828,2.568,3.166,0.176,3.168,3.396,3.453,large_seed_robustness_quality_only
+T2,RTX4070,G77,1000,9694,2.475,3.065,0.216,3.038,3.340,3.422,large_seed_robustness_quality_only
+T2,RTX4070,G81,1000,13702,2.546,3.132,0.201,3.115,3.400,3.471,large_seed_robustness_quality_only
+T3,RTX4060_Ti,G72,1167,6822,2.654,3.167,0.171,3.168,3.396,3.453,cross_tier_reproducibility
+T3,RTX4060_Ti,G77,1167,9696,2.455,3.077,0.218,3.058,3.360,3.441,cross_tier_reproducibility
+T3,RTX4060_Ti,G81,1167,13692,2.617,3.133,0.202,3.129,3.391,3.471,cross_tier_reproducibility
+T4,RTX5090,G72,3100,6828,2.568,3.167,0.173,3.168,3.396,3.453,primary_dedicated_gpu_frontier_evidence
+T4,RTX5090,G77,3100,9690,2.515,3.086,0.212,3.078,3.360,3.441,primary_dedicated_gpu_frontier_evidence
+T4,RTX5090,G81,3100,13700,2.560,3.149,0.202,3.144,3.414,3.499,primary_dedicated_gpu_frontier_evidence

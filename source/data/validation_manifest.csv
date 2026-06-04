@@ -1,0 +1,20 @@
+artifact,path,purpose,release_status
+large_seed_frontier_summary,data/frontier_large_seed_summary.csv,Public summary of completed frontier rows and gap distributions,included
+controlled_maxcut_comparison,data/controlled_maxcut_comparison.csv,Context-only N=30 baseline summary against open SB and MQLib; not a public rerunability or superiority claim,included
+hardware_evidence_matrix,data/hardware_evidence_matrix.csv,Five-tier local hardware evidence matrix,included
+exclusion_registry,data/exclusion_registry.csv,Rules for non-claim rows and excluded evidence,included
+public_supplement_inventory,anc/b1brain_public_supplement_2026-05-31/evidence_lane_inventory.csv,Public lane inventory separating frontier breadth parity baseline and hardware evidence,included
+public_gset_breadth_rows,anc/b1brain_public_supplement_2026-05-31/gset_breadth_per_run_public.csv,Redacted completed per-run Gset breadth rows,included
+public_biqmac_parity_rows,anc/b1brain_public_supplement_2026-05-31/biqmac_parity_per_run_public.csv,Redacted completed source-repaired BiqMac parity rows,included
+public_frontier_extract,anc/b1brain_public_supplement_2026-05-31/frontier_per_run_public_extract.csv,Complete 15807-row redacted public frontier extract for final G72 G77 and G81 claim set,included
+tier_invariance_diagnostics,data/tier_invariance_diagnostics.csv,Cross-tier descriptive diagnostics computed from the public frontier extract,included
+seed_plateau_summary,data/seed_plateau_summary.csv,Tier4 seed-budget plateau checkpoints generated from the public frontier extract,included
+evidence_volume_figure,figures/fig_evidence_volume_academic.png,Claim-valid evidence volume visualization generated from public-safe lane counts,included
+row_admissibility_figure,figures/fig_row_admissibility_flow_academic.png,Visual row-admissibility pipeline and denominator boundary,included
+gap_boxplot_figure,figures/fig_gap_boxplot_academic.png,Box summary of public frontier gap distributions by instance and tier,included
+gap_ecdf_figure,figures/fig_gap_ecdf_academic.png,ECDF visualization generated directly from the public frontier extract,included
+seed_plateau_figure,figures/fig_seed_plateau_academic.png,Best-gap-so-far plateau diagnostic generated directly from the public frontier extract,included
+rendered_pdf,../ARXIV_PREPRINT_RENDERED_QA_2026-05-31/main.pdf,Visual QA output generated from source,qa_only_not_upload_source
+unredacted_raw_jsonl_rows,not_in_public_source_package,Append-only raw rows for first-hand forensic review,controlled_review_required_before_public_release
+solution_bitstrings,not_in_public_source_package,Independent cut validation from assignments,controlled_review_required_before_public_release
+gset_instance_file_digests,not_in_public_source_package,Separate public SHA256 manifest for raw Gset instance files; current release records source and instance identity but not independent instance-file hashes,deferred_release_gate

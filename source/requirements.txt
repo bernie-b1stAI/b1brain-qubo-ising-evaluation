@@ -1,0 +1,2 @@
+# The public supplement verifier uses only the Python standard library.
+# No external Python packages are required.

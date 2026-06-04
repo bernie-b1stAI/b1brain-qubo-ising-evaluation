@@ -1,0 +1,86 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{BiqMac Library}(2007)]{biqmac}
+{BiqMac Library}.
+\newblock Biqmac library, 2007.
+\newblock URL \url{https://biqmac.aau.at/biqmaclib.pdf}.
+\newblock Official BiqMac library PDF used for certified benchmark-value
+  validation rows.
+
+\bibitem[{bqth29}(2024)]{openSB}
+{bqth29}.
+\newblock simulated-bifurcation-algorithm, 2024.
+\newblock URL \url{https://github.com/bqth29/simulated-bifurcation-algorithm}.
+\newblock Open Simulated Bifurcation implementation used as the GPU baseline.
+
+\bibitem[Dunning et~al.(2018)Dunning, Gupta, and Silberholz]{dunning2018mqlib}
+Iain Dunning, Swati Gupta, and John Silberholz.
+\newblock What works best when? a systematic evaluation of heuristics for
+  max-cut and qubo.
+\newblock \emph{INFORMS Journal on Computing}, 30\penalty0 (3):\penalty0
+  608--624, 2018.
+\newblock \doi{10.1287/ijoc.2017.0798}.
+\newblock URL \url{https://doi.org/10.1287/ijoc.2017.0798}.
+
+\bibitem[Goemans and Williamson(1995)]{goemans1995maxcut}
+Michel~X. Goemans and David~P. Williamson.
+\newblock Improved approximation algorithms for maximum cut and satisfiability
+  problems using semidefinite programming.
+\newblock \emph{Journal of the ACM}, 42\penalty0 (6):\penalty0 1115--1145,
+  1995.
+\newblock \doi{10.1145/227683.227684}.
+
+\bibitem[Goto et~al.(2019)Goto, Tatsumura, and Dixon]{goto2019sb}
+Hayato Goto, Kosuke Tatsumura, and Alexander~R. Dixon.
+\newblock Combinatorial optimization by simulating adiabatic bifurcations in
+  nonlinear hamiltonian systems.
+\newblock \emph{Science Advances}, 5\penalty0 (4):\penalty0 eaav2372, 2019.
+\newblock \doi{10.1126/sciadv.aav2372}.
+\newblock URL \url{https://www.science.org/doi/10.1126/sciadv.aav2372}.
+
+\bibitem[Khan and Shukla(2025)]{khan2025g63}
+Nikhat Khan and Nikhil Shukla.
+\newblock New best-known max-cut solution for the g63 instance in the g-set
+  benchmark, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.21105}.
+
+\bibitem[Mohseni et~al.(2022)Mohseni, McMahon, and Byrnes]{mohseni2022ising}
+Naeimeh Mohseni, Peter~L. McMahon, and Tim Byrnes.
+\newblock Ising machines as hardware solvers of combinatorial optimization
+  problems.
+\newblock \emph{Nature Reviews Physics}, 4:\penalty0 363--379, 2022.
+\newblock \doi{10.1038/s42254-022-00440-8}.
+\newblock URL \url{https://doi.org/10.1038/s42254-022-00440-8}.
+
+\bibitem[Nath and Kuhnle(2024)]{nath2024maxcutbench}
+Ankur Nath and Alan Kuhnle.
+\newblock A benchmark for maximum cut: Towards standardization of the
+  evaluation of learned heuristics for combinatorial optimization, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.11897}.
+
+\bibitem[Ohno et~al.(2024)Ohno, Shirai, and Togawa]{ohno2024qkp}
+Kentaro Ohno, Tatsuhiko Shirai, and Nozomu Togawa.
+\newblock Toward practical benchmarks of ising machines: A case study on the
+  quadratic knapsack problem, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.19175}.
+
+\bibitem[Shaglel et~al.(2025)Shaglel, Kirsch, Winkler, Muench, Walter,
+  Schinkel, and Kliesch]{shaglel2025maxcut}
+Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Muench, Stefan Walter,
+  Fritz Schinkel, and Martin Kliesch.
+\newblock A comprehensive benchmark of an ising machine on the max-cut problem,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2507.22117}.
+
+\bibitem[Zick(2025)]{zick2025}
+Kenneth~M. Zick.
+\newblock Performance report of heuristic algorithm that cracked the largest
+  gset ising problems (g81 cut=14060), 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.18508}.
+
+\end{thebibliography}

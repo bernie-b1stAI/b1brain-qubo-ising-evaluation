@@ -1,0 +1,2 @@
+artifact,release_status,reason,recommended_next_step
+solution_bitstrings,not_public_ip_review_required,"solution bitstrings are useful for independent recomputation, but must be reviewed for IP and benchmark-format safety before public ancillary release",release instance-level objective rows now; add bitstrings only after counsel/IP review approves the exact encoding

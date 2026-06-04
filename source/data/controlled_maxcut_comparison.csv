@@ -1,0 +1,4 @@
+instance,current_best_known,b1brain_gap_percent,open_sb_gap_percent,mqlib_gap_percent,b1brain_rank,allowed_claim
+G72,7008,2.77,3.05,2.08,2,context-only equal-N summary; no public rerunability fairness or superiority claim
+G77,9940,2.66,2.96,1.87,2,context-only equal-N summary; no public rerunability fairness or superiority claim
+G81,14060,2.80,3.24,1.96,2,context-only equal-N summary; no public rerunability fairness or superiority claim
