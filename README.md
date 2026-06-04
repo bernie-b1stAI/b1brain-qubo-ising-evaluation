@@ -6,6 +6,12 @@ This repository contains the public-safe evidence package for:
 
 The package supports a conservative Optimization Online submission about black-box solver evaluation methodology. It is not a release of the B1Brain solver implementation.
 
+## Publication Status
+
+- Submitted to Optimization Online: 2026-06-04.
+- Current state: awaiting Optimization Online moderation approval.
+- This repository is the public evidence package referenced by the submitted PDF.
+
 ## What Is Included
 
 - `paper/b1brain_source_locked_evaluation.pdf` - rendered manuscript PDF.
@@ -37,4 +43,3 @@ Expected result: both scripts report `PASS`.
 ## Disclosure Boundary
 
 This repository intentionally excludes unredacted append-only JSONL rows, solution bitstrings, exact solver-interface details, timing logs, private run orchestration files, and implementation-level solver mechanics.
-
