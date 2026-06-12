@@ -1,0 +1,44 @@
+{
+  "doi": {
+    "has_existing_doi": false,
+    "instruction": "Let Zenodo mint the DOI on publication. Reserve a DOI only if you plan to edit files before publishing to include the DOI."
+  },
+  "resource_type": {
+    "primary": "Publication > Preprint",
+    "fallback": "Publication > Report"
+  },
+  "title": "Source-Locked Evaluation of Black-Box QUBO and Ising Heuristics: Public Evidence from Gset Max-Cut and BiqMac Certified-Value Checks",
+  "publication_date": "2026-06-12",
+  "creators": [
+    {
+      "name": "Bernardo De Araujo Coutinho Mendonca",
+      "affiliation": "Independent Researcher, United States"
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2026.06.12",
+  "language": "English",
+  "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+  "description": "This record archives the public-safe evidence package for \"Source-Locked Evaluation of Black-Box QUBO and Ising Heuristics: Public Evidence from Gset Max-Cut and BiqMac Certified-Value Checks.\" The paper presents a source-locked, append-only evaluation protocol for proprietary black-box QUBO and Ising solvers and applies it to B1Brain across locally controlled compute tiers. The public evidence snapshot includes completed solver rows across public-safe evidence lanes, a redacted Gset Max-Cut frontier extract, BiqMac certified-value parity checks, checksum manifests, public validation tables, and verifier/reproducer scripts. The archive is intentionally conservative. It supports claims about source-locked row accounting, public-safe evidence integrity, redacted per-run frontier objectives, checksum verification, and distributional reporting. It does not support claims of Max-Cut leadership, proven optimality for G72/G77/G81, timing superiority, throughput, energy efficiency, public rerunability of controlled baselines, or release of proprietary solver internals. Public GitHub evidence repository: https://github.com/bernie-b1stAI/b1brain-qubo-ising-evaluation",
+  "notes": "Optimization Online status: submitted on 2026-06-04 and rejected as out of scope on 2026-06-11. This Zenodo record is the DOI-backed public archive replacing Optimization Online as the public anchor. The archive excludes unredacted append-only JSONL rows, solution bitstrings, exact solver-interface details, timing/resource traces, private run orchestration files, and controlled-baseline command pins.",
+  "keywords": [
+    "QUBO",
+    "Ising",
+    "Max-Cut",
+    "Gset",
+    "BiqMac",
+    "black-box solver evaluation",
+    "source-locked evaluation",
+    "reproducibility",
+    "optimization benchmarking",
+    "checksum manifest",
+    "public evidence package"
+  ],
+  "upload_files": [
+    "b1brain_source_locked_evaluation_2026-06-12.pdf",
+    "b1brain_public_source_package_2026-06-12.zip",
+    "b1brain_public_supplement_2026-05-31.zip",
+    "UPLOAD_FILE_MANIFEST.sha256"
+  ],
+  "related_url": "https://github.com/bernie-b1stAI/b1brain-qubo-ising-evaluation"
+}

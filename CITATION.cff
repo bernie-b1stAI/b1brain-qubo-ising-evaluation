@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this evidence package, please cite it using this metadata. Add the Zenodo DOI after publication."
+title: "Source-Locked Evaluation of Black-Box QUBO and Ising Heuristics: Public Evidence from Gset Max-Cut and BiqMac Certified-Value Checks"
+authors:
+  - family-names: "Mendonca"
+    given-names: "Bernardo De Araujo Coutinho"
+    affiliation: "Independent Researcher, United States"
+date-released: "2026-06-12"
+version: "2026.06.12"
+url: "https://github.com/bernie-b1stAI/b1brain-qubo-ising-evaluation"
+abstract: "Public-safe evidence package for a source-locked, append-only evaluation protocol for black-box QUBO and Ising solver claims. The package contains the manuscript, public LaTeX source, figures, validation tables, redacted per-run extracts, checksum manifests, and verifier/reproducer scripts. It does not release B1Brain implementation internals, solution bitstrings, unredacted JSONL traces, timing logs, or controlled-baseline command pins."
+keywords:
+  - QUBO
+  - Ising
+  - Max-Cut
+  - Gset
+  - BiqMac
+  - black-box solver evaluation
+  - source-locked evaluation
+  - reproducibility
+  - optimization benchmarking

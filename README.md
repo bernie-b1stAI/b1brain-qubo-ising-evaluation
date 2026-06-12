@@ -6,11 +6,12 @@ This repository contains the public-safe evidence package for:
 
 The package supports a conservative Optimization Online submission about black-box solver evaluation methodology. It is not a release of the B1Brain solver implementation.
 
-## Publication Status
+## Public Anchor Status
 
 - Submitted to Optimization Online: 2026-06-04.
-- Current state: awaiting Optimization Online moderation approval.
-- This repository is the public evidence package referenced by the submitted PDF.
+- Optimization Online decision: rejected as out of scope on 2026-06-11.
+- Current public anchor: this GitHub evidence repository.
+- DOI path: use the Zenodo upload folder in `zenodo/2026-06-12/` to publish a DOI-backed archive of the public paper, source package, and supplement.
 
 ## What Is Included
 
@@ -43,3 +44,7 @@ Expected result: both scripts report `PASS`.
 ## Disclosure Boundary
 
 This repository intentionally excludes unredacted append-only JSONL rows, solution bitstrings, exact solver-interface details, timing logs, private run orchestration files, and implementation-level solver mechanics.
+
+## DOI Status
+
+No DOI has been minted yet. The Zenodo record should be published from the release-ready files and metadata in `zenodo/2026-06-12/`; after Zenodo publication, update this README and `CITATION.cff` with the minted DOI.
